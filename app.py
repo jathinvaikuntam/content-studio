@@ -91,7 +91,7 @@ def generate_content(
     tone,
     word_count
 ):
-    MAX_TOKENS = 3000
+    MAX_TOKENS = 30000
 
     token_count = client.models.count_tokens(
         model="gemini-2.5-flash",
