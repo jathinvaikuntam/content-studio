@@ -91,6 +91,23 @@ def generate_content(
     tone,
     word_count
 ):
+    MAX_TOKENS = 3000
+
+    token_count = client.models.count_tokens(
+        model="gemini-2.5-flash",
+        contents=user_input
+    )
+    actual_tokens = token_count.total_tokens
+
+    if actual_tokens > MAX_TOKENS:
+        st.error(
+        f"Document exceeds token limit.\n"
+        f"Actual Tokens: {actual_tokens}\n"
+        f"Maximum Allowed: {MAX_TOKENS}"
+    )
+        st.stop()
+
+
     final_prompt = f"""
     {prompt_template}
 
