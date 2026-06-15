@@ -40,7 +40,7 @@ Whether you're writing blog posts, social media captions, product descriptions, 
 
 ## 🏗 Architecture
 
-![Architecture Diagram](architecture.png)
+![Architecture Diagram](https://raw.githubusercontent.com/jathinvaikuntam/content-studio/main/architecture.png)
 
 ```text
 User Input
@@ -97,9 +97,9 @@ streamlit run app.py
 
 ## 📸 Screenshots
 
-![Home Screen](screenshots/home.png)
+![Home Screen](https://raw.githubusercontent.com/jathinvaikuntam/content-studio/main/screenshots/home.png)
 
-![Generated Output](screenshots/output.png)
+![Generated Output](https://raw.githubusercontent.com/jathinvaikuntam/content-studio/main/screenshots/output.png)
 
 ---
 
