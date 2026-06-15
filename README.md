@@ -1,4 +1,3 @@
-```markdown
 ---
 title: AI Content Studio
 emoji: ✍️
@@ -17,8 +16,6 @@ pinned: false
 [![Live Demo](https://img.shields.io/badge/Live-Demo-success)](https://content-studio-lrkurmdksxv2n2rgsaws2w.streamlit.app/)
 [![Hugging Face](https://img.shields.io/badge/🤗-Spaces-yellow)](https://huggingface.co/spaces/jathinvaikuntam/ai-content-studio)
 [![GitHub](https://img.shields.io/badge/GitHub-Repo-blue)](https://github.com/jathinvaikuntam/content-studio.git)
-
-
 
 ---
 
@@ -45,8 +42,7 @@ Whether you're writing blog posts, social media captions, product descriptions, 
 
 ![Architecture Diagram](architecture.png)
 
-```
-
+```text
 User Input
 ↓
 Prompt Selection
@@ -56,8 +52,7 @@ Gemini API Processing
 Content Generation
 ↓
 Formatted Output
-
-````
+```
 
 ---
 
@@ -88,7 +83,6 @@ python -m venv venv
 # Windows
 venv\Scripts\activate
 
-
 # Install dependencies
 pip install -r requirements.txt
 
@@ -97,7 +91,7 @@ echo "GEMINI_API_KEY=your-api-key" > .env
 
 # Run the application
 streamlit run app.py
-````
+```
 
 ---
 
@@ -105,10 +99,7 @@ streamlit run app.py
 
 ![Home Screen](screenshots/home.png)
 
-
 ![Generated Output](screenshots/output.png)
-
-
 
 ---
 
@@ -143,6 +134,3 @@ Built by **Jathin** as part of a **30-Day AI Engineering Sprint**.
 This project is licensed under the MIT License.
 
 Feel free to use, modify, and distribute this project in accordance with the license terms.
-
-```
-```
